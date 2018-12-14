@@ -8,7 +8,7 @@
 ``` 
 <template>
     <div>
-        <water-mask ref="haha">        
+        <water-mask>        
         </water-mask>
     </div>
 </template>
