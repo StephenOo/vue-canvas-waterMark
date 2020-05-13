@@ -47,7 +47,7 @@ export default {
             this.maskDiv = document.createElement('div')
             let ctx = canvas.getContext('2d')
             ctx.font = 'normal 18px Microsoft Yahei' //设置样式
-            ctx.fillStyle = 'rgb(112, 113, 114, 0.1)' //水印字体颜色
+            ctx.fillStyle = 'rgba(112, 113, 114, 0.1)' //水印字体颜色
             ctx.rotate(30 * Math.PI / 180) //水印偏转角度
             ctx.fillText(this.inputText, 30, 20)
             let src = canvas.toDataURL('image/png')
